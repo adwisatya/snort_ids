@@ -1,0 +1,2 @@
+alert tcp any any -> any any (content:"www.facebook.com";msg:"buka fb";sid:1000001;rev:1;)
+
